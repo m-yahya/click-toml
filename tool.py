@@ -15,7 +15,7 @@ def init(url):
     title = "OLI BOX Config"
 
     [web3_provider]
-    url = {url}
+    url = "{url}"
 
     """
     parsed_config = toml.loads(config)
